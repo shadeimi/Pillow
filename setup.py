@@ -320,6 +320,7 @@ class pil_build_ext(build_ext):
 
         _add_directory(library_dirs, "/usr/lib")
         _add_directory(include_dirs, "/usr/include")
+        _add_directory(library_dirs, "/usr/lib/i386-linux-gnu")
 
         #
         # insert new dirs *before* default libs, to avoid conflicts
